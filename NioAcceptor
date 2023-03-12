@@ -1,0 +1,6 @@
+public interface NioAcceptor extends NioHandler
+{
+  Exector  getExector();
+  NioReactor[] getSlaveReactors();
+  
+}
