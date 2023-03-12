@@ -1,0 +1,6 @@
+public interface  NioReactor extends Runnable
+{
+   Selector getSelector();
+   void register(SelectableChannel channel,NioHandler handler);
+   void dispatch(SelectionKey sk);
+}
