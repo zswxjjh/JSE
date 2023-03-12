@@ -1,0 +1,4 @@
+public  interface  NioHandler extends Runnable
+{
+  SelectionKey  getNioEvent();
+}
